@@ -1,0 +1,7 @@
+Machine code and binary are the same - a number system with base 2 - either a 1 or 0. But machine code can also be expressed in hex-format (hexadecimal) - a number system with base 16. 
+The binary system and hex are very interrelated with each other, its easy to convert from binary to hex and convert back from hex to binary. And because hex is much more readable and useful than binary - it's often used and shown. For instance in the pictures you have been using to fix headers -uses hex-numbers!
+
+Let say you have the binary sequence 1001111000001010 - it can easily be converted to hex by grouping in blocks - each block consisting of four bits.
+
+
+` 1001 1110 0000 1010 => 9  14 0 10 which in hex becomes: 9E0A. `
