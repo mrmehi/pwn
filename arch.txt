@@ -30,7 +30,7 @@ There are also 3 other reserved registers:
 
 1 - ebp (Base Pointer - Contains the address of the top element of the current stack frame)
 2 - esp (Stack Pointer - Contains the address of the top element of the current stack frame)
-3 - eip
+3 - eip (Instruction Pointer)
 
 ``
 The Stack is a data structure comprised of elements that are added and removed with two operations:
