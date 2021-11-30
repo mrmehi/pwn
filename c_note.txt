@@ -3,3 +3,7 @@ Every C program has 4 main components:
 2 - Heap
 3 - Registers
 4 - Instructions
+
+At this point there are two main architectures that dictate how our program is compiled and executed.
+1 - 32 bit 
+2 - 64 bit
