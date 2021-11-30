@@ -1,9 +1,47 @@
+``
 Every C program has 4 main components:
 1 - Stack
 2 - Heap
 3 - Registers
 4 - Instructions
 
+``
+
+``
 At this point there are two main architectures that dictate how our program is compiled and executed.
 1 - 32 bit 
 2 - 64 bit
+
+Registers can store 8 bytes or less.
+
+``
+
+``
+In x86 architecture there are six general-purpose registers:
+
+1 - eax
+2 - ebx
+3 - ecx 
+4 - edx
+5 - esi
+6 - edi
+
+There are also 3 other reserved registers:
+
+1 - ebp (Base Pointer - Contains the address of the top element of the current stack frame)
+2 - esp (Stack Pointer - Contains the address of the top element of the current stack frame)
+3 - eip
+
+``
+The Stack is a data structure comprised of elements that are added and removed with two operations:
+
+1 - push
+2 - pop
+
+Push adds an element to the top of the stack and pop removes the top element from the stack.
+Each element on the stack is assigned a stack address.
+Elements that are higher on the stack have a lower address than those on the bottom of the stack. In other words the stack grows towards lower memory addresses.
+Whenever a function is called that function is set up with a stack frame. All the local variables for that function will be stored in that function stack frame.
+
+``
+
