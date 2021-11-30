@@ -1,0 +1,5 @@
+Every C program has 4 main components:
+1 - Stack
+2 - Heap
+3 - Registers
+4 - Instructions
